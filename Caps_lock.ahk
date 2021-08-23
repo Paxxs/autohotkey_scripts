@@ -1,7 +1,3 @@
-#SingleInstance, Force
-SendMode Input
-SetWorkingDir, %A_ScriptDir%
-
 #Persistent
 SetCapsLockState, AlwaysOff
 
@@ -41,6 +37,7 @@ CapsLock::Send, {ESC}
 ;\ to |, <(shift)+\ to \
 \::+\
 Shift & \::Send {\}
+; Shift & \::SendInput {Text}\
 
 ; Cpaslock + -= ,send up,dowm
 

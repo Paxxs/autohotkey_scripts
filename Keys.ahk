@@ -1,10 +1,4 @@
-#SingleInstance, Force
-; #InstallKeybdHook
-SendMode Input
-SetWorkingDir, %A_ScriptDir%
-
-
-; 常用快捷输入
+﻿; 常用快捷输入
 :*:@m::@vip.morfans.cn
 :*:@h::@hotmail.com
 :*:@g::@gmail.com
